@@ -1,0 +1,16 @@
+body {
+    background: url('images/bg-gallery.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.gallery-container img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
